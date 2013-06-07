@@ -1,7 +1,7 @@
 class locale::package {
 
-	package  { $locale::package_name:
-		ensure => present
-	}
+  package  { $locale::package_name:
+    ensure => present
+  }
 
 }

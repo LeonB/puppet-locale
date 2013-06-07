@@ -16,8 +16,8 @@ class locale::params {
 
   ### Application related parameters
 
-	$package_name = $::operatingsystem ? {
-		default => 'language-pack-nl',
-	}
+  $package_name = $::operatingsystem ? {
+    default => 'language-pack-nl',
+  }
 
 }
